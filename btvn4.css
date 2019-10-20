@@ -1,18 +1,21 @@
-* {
-    margin: 0px;
+*{
     padding: 0px;
+    margin: 0px;
 }
-.menu0{
+.menu{
     height: 50px;
     width: 100%;
-    background: #0ef7f7;
+    background: #000303;
     color: white;
     font-family: sans-serif;
 }
-.menu0 ul{
-    list-style-type: none;
+.menu ul{
+    list-style: none;
 }
-.menu0 ul li{
+.style1:hover .menu_web{
+    display: block;
+}
+.menu ul li{
     text-decoration: none;
     line-height: 50px;
     height: 50px;
@@ -20,64 +23,68 @@
     float: left;
     text-align: center;
 }
-.menu1{
-    position: relative;
-}
-.menu1 .menu1{
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
-}
-.menu2 li{
-    background: #f46666;
-    display: none;
-    box-shadow:0 4px 5px rgb(90, 89, 89);
-}
-.menu0 ul li .menu1 li:hover{
-    background: gold;
-}
-.menu0 ul li:hover{
-    background: #f46666;
-    color: #333;
-}
-.menu0 ul li:hover .menu1 li{
-    display: block;
-}
-.menu2{
-    position: relative;
-}
-.menu2 .menu2{
+
+.style .menu_web{
     position: absolute;
     display: none;
     left: 130px;
-    bottom: 50px;   
+    bottom: 50px;
 }
-.menu2:hover .menu2{
+.menu_hocTap{
+    position: relative;
+}
+.menu_hocTap:hover .style{
     display: block;
 }
-.menu3 li{
+.main_menu li:hover{
+    background: orangered;
+    color: rgb(245, 241, 241);
+}
+.menu_hocTap .style{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu_hocTap .style li{
+    color: black;
+    background: #c4a6a6;
+    box-shadow:0 4px 5px rgb(90, 89, 89); 
+    width: 180px;
+}
+.menu_music .menu_theLoai li{
+    color: black;
+    background: #c4a6a6;
+    box-shadow:0 4px 5px rgb(90, 89, 89); 
+    width: 180px;
+}
+.menu_hocTap ul li:hover{
+    display: flex;
+    background: rgb(141, 168, 86);
+    color: rgb(15, 5, 5);
+}
+.main_menu{
+    position: relative;
+}
+.menu_music ul li:hover{
+    display: flex;
+    background: rgb(141, 168, 86);
+    color: rgb(15, 5, 5);
+
+}.menu_music:hover .menu_theLoai{
+    display: block;
+}
+.menu_web li{
     display: block;
     width: 180px;
     height: 50px;
 }
-.auto{
+.menu_music{
     position: relative;
 }
-.auto .auto1{
+.menu_music .menu_theLoai{
     position: absolute;
     display: none;
     padding: 0px;
     margin: 0px;
-}
-.auto:hover .auto1{
-    display: block;
-}
-.auto .auto1 li{
-    color: black;
-    background: #f46666;
-    box-shadow:0 4px 5px rgb(90, 89, 89); 
-    width: 180px;
-}
-.auto .auto1 li:hover{
-    background: gold;
 }
