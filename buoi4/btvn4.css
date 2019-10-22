@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    color: #333;
+}
+
+.menu ul{
+    list-style-type: none;
+    background: rgb(9, 4, 87);
+    text-align: center;
+}
+.menu ul li{
+    position: relative;
+    color: white;
+    display: inline-table;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+}
+.menu ul li a{
+    color: #fffefe;
+    text-decoration: none;
+    display: block;
+}
+.menu ul li .menu_hoctap{
+    display: none;
+    position: absolute;
+}
+.menu ul li .menu_music{
+    display: none;
+    position: absolute;
+}
+.menu ul li .menu_giaitri{
+    display: none;
+    position: absolute;
+}
+.menu ul li:hover .menu_hoctap{
+    display: block;
+    background: olive;
+}
+.menu ul li:hover .menu_music{
+    display: block;
+    background: olive;
+}
+.menu ul li:hover .menu_giaitri{
+    display: block;
+    background: olive;
+}
+.menu ul li a:hover{
+    background: orangered;
+    color: palegreen;
+}
+.menu_hoctap li .menu_web{
+    display: none;
+    position: absolute;
+}
+.menu_hoctap li:hover .menu_web{
+    display: block;
+    left: 150px;
+    top: 0px;
+    background: rgb(0, 128, 128);
+}
