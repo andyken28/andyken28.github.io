@@ -1,0 +1,90 @@
+.all{
+    font-family: Arial;
+    width: 100%;
+    background: rgb(26, 24, 24);
+}
+.header{
+    height: 300px;
+    width: 100%;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+}
+.header ul li:hover{
+    color: red;
+}
+.header ul li{
+    color: cornsilk;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+.header h1{
+    text-align: center;
+    color: rgb(202, 197, 177);
+}
+.header p{
+    margin-left: 260px;
+    margin-right: 260px;
+    text-align: center;
+    color: rgb(202, 197, 177);
+}
+.body{
+    height: 900px;
+    width: 100%;
+    background: rgb(26, 24, 24);
+}
+.left_body{
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.right_body{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+.top_left img{
+    border-radius: 400px;
+}
+.bottom_right img{
+    border-radius: 400px;
+}
+.top_left{
+    margin-left: 36%;
+    height: 48%;
+    width: 100%;
+}
+.bottom_left{
+    margin-top: 120px;
+    text-align: center;
+    height: 47%;
+    color: rgb(202, 197, 177);
+    width: 100%;
+}
+.top_right{
+    margin-top: 30px;
+    margin-left: 60px;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 50px;
+    height: 47%;
+    width: 100%;
+    color: rgb(202, 197, 177);
+}
+.bottom_right{
+    margin-right: 30%;
+    margin-left: 40px;
+    height: 47%;
+    width: 100%;
+}
+
+.footer{
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background: rgb(61, 58, 58);
+}
