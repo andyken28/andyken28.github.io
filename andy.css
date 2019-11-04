@@ -112,6 +112,7 @@
     height: 28px;
     width: 74px;
     margin-top: 8px;
+    margin-left: 5px;
 }
 .ihe311 img{
     float: left;
@@ -124,6 +125,12 @@
     border: 0px;
     color: white;
     margin-left: 5px;
+}
+.ihe311 button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;   
 }
 .ihe311:hover{
     background: rgb(61, 82, 122);
@@ -143,6 +150,12 @@
     color: white;
     font-weight: normal;
 }
+.ihe312 button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;   
+}
 .ihe312 button:hover{
     background: rgb(61, 82, 122);
 }
@@ -160,6 +173,12 @@
     border: 0px;
     color: white;
     font-weight: normal;
+}
+.ihe313 button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;   
 }
 .ihe313 button:hover{
     background: rgb(61, 82, 122);
@@ -442,13 +461,48 @@
 .ct1{
     height: 155px;
     width: 100%;
-    background: sandybrown;
+    background: rgb(255, 255, 255);
 }
 .ct11{
     height: 33px;
     width: 100%;
-    background: seagreen
+    background: rgba(181, 182, 181, 0.5)
     ;
+}
+.ct11 a{
+    text-decoration: none;
+    color: rgb(34, 34, 85);
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ct111{
+    margin-left: 5px;
+    float: left;
+    height: 14px;
+    margin-top: 10px;
+    width: 105.03px;
+}
+.ct112{
+    margin-left: 10px;
+    float: left;
+    height: 14px;
+    margin-top: 10px;
+    width: 99.13px;
+}
+.ct113{
+    margin-left: 10px;
+    float: left;
+    height: 14px;
+    margin-top: 10px;
+    width: 124.5px;
+}
+.ct114{
+    margin-left: 10px;
+    float: left;
+    height: 14px;
+    margin-top: 10px;
+    width: 148.56px;
 }
 .ct2{
     margin-top: 10px;
