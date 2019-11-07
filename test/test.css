@@ -1,90 +1,137 @@
+*{
+    margin: 0%;
+}
 .all{
     font-family: Arial;
     width: 100%;
-    background: rgb(26, 24, 24);
 }
 .header{
-    height: 300px;
+    z-index: 1;
+    height: 500px;
     width: 100%;
+    background-image: url(https://www.vuivivu.com/wp-content/uploads/2018/08/top-10-m%C3%A1y-%E1%BA%A3nh-cho-ng%C6%B0%E1%BB%9Di-m%E1%BB%9Bi-b%E1%BA%AFt-%C4%91%E1%BA%A7u-t%E1%BB%91t-nh%E1%BA%A5t-hi%E1%BB%87n-nay.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
-.header ul{
+.header i{
+    font-size: 19px;
+}
+.menu{
+    height: 70px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    position: fixed;
+}
+.menu ul{
     display: flex;
     list-style-type: none;
 }
-.header ul li:hover{
+.menu ul li{
+    line-height: 70px;
+    padding-right: 30px;
+}
+.menu ul li a:hover{
     color: red;
 }
-.header ul li{
-    color: cornsilk;
-    font-weight: bold;
-    padding: 10px;
+a{
+    color: black;
     text-decoration: none;
 }
-.header h1{
-    text-align: center;
-    color: rgb(202, 197, 177);
-}
-.header p{
-    margin-left: 260px;
-    margin-right: 260px;
-    text-align: center;
-    color: rgb(202, 197, 177);
-}
-.body{
-    height: 900px;
+.content{
+    margin: auto;
+    height: 1150px;
     width: 100%;
-    background: rgb(26, 24, 24);
 }
-.left_body{
+.ct1{
+    height: 300px;
+    width: 100%;
+}
+.ct1 h1{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.ct1 p{
+    text-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+.ct2{
+    height: 400px;
+    width: 100%;
+}
+.ct21{
+    text-align: center;
+    margin-left: 15%;
     float: left;
     height: 100%;
-    width: 50%;
+    width: 34%;
 }
-.right_body{
-    float: right;
+.img img{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+.ct22{
+    margin-right: 15%;
+    float: left;
     height: 100%;
-    width: 50%;
+    width: 34%;
 }
-.top_left img{
-    border-radius: 400px;
-}
-.bottom_right img{
-    border-radius: 400px;
-}
-.top_left{
-    margin-left: 36%;
-    height: 48%;
-    width: 100%;
-}
-.bottom_left{
-    margin-top: 120px;
+.ct22 p{
+    padding: 40px;
     text-align: center;
-    height: 47%;
-    color: rgb(202, 197, 177);
+}
+.ct3{
+    height: 400px;
     width: 100%;
 }
-.top_right{
-    margin-top: 30px;
-    margin-left: 60px;
+.ct31{
+    margin-left: 15%;
+    float: left;
+    height: 100%;
+    width: 34%;
+}
+.ct31 p{
+    padding: 45px;
     text-align: center;
-    padding-right: 50px;
-    padding-top: 50px;
-    height: 47%;
-    width: 100%;
-    color: rgb(202, 197, 177);
 }
-.bottom_right{
-    margin-right: 30%;
-    margin-left: 40px;
-    height: 47%;
+.ct32{
+    text-align: center;
+    margin-right: 15%;
+    float: left;
+    height: 100%;
+    width: 34%;
+}
+.footer{
+    height: 200px;
     width: 100%;
+    background: rgb(146, 139, 139);
+}
+.footer:hover{
+    background: rgb(82, 78, 78);
+}
+.f1{
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
+}
+.f1 a{
+    color: red;
+}
+.f2{
+    text-align: center;
+    padding: 20px;
+}
+.f2 a{
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.f2 a:hover{
+    color: red;
 }
 
-.footer{
-    font-size: 30px;
-    padding-top: 20px;
-    text-align: center;
-    height: 100px;
-    width: 100%;
-    background: rgb(61, 58, 58);
-}
+
