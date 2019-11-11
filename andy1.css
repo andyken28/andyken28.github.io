@@ -4,7 +4,23 @@
     padding: 0px;
 }
 .ct2{
-    padding: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    height: auto;
+    width: auto;
+    padding: 150px;
+}
+body {
+   background: #fff;
+   color: 333;
+}
+ 
+@media all and (max-width: 320px) {
+   body {
+      background: #e7e7e7;    
+   }
+   .ct2{
+       width: auto;
+        font-size: 15px;
+
+       padding: 6px;
+   }
 }
