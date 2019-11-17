@@ -7,8 +7,10 @@
     /* height: 3162px; */
     height: 9700px;
     width: 100%;
+    /* height: auto; */
+    /* width: auto; */
     /* background: rgb(233, 235, 238); */
-    background: chocolate;
+    background: rgb(189, 139, 103);
 }
 .header{
     z-index: 1;
