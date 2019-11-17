@@ -136,7 +136,45 @@
     float: right;
     height: 100%;
     width: 31%;
-    background: yellow;
+}
+.right1{
+    height: 370px;
+    widows: 100%;
+    background: white;
+}
+.r1_img{
+    height: 60%;
+    width: 100%;
+}
+.r1_img img{
+    height: 100%;
+    width: 100%;
+}
+.r1_tt{
+    height: 10%;
+    width: 100%;
+}
+.r1_tt p{
+    padding: 15px;
+}
+.r2_ct{
+    height: 30%;
+    width: 100%;
+}
+.r2_ct p{
+    padding: 15px;
+}
+.right2{
+    margin-top: 35px;
+    height: 380px;
+    widows: 100%;
+    background: white;
+}
+.right3{
+    margin-top: 35px;
+    height: 200px;
+    widows: 100%;
+    background: white;
 }
 .footer{
     margin-top: 45px;
