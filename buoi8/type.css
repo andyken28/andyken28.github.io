@@ -6,7 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     height: 1450px;
     width: 100%;
-    background: rgb(206, 206, 206);
+    background: rgb(241, 240, 240)
 }
 .header{
     text-align: center;
@@ -157,11 +157,11 @@
 .r1_tt p{
     padding: 15px;
 }
-.r2_ct{
+.r1_ct{
     height: 30%;
     width: 100%;
 }
-.r2_ct p{
+.r1_ct p{
     padding: 15px;
 }
 .right2{
@@ -170,11 +170,91 @@
     widows: 100%;
     background: white;
 }
+.r2_tt{
+    height: 18%;
+    width: 100%;
+    background: rgb(219, 219, 219);
+}
+.r2_tt p{
+    padding-top: 24px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+.r2_menu{
+    height: 82%;
+    width: 100%;
+    background: rgb(207, 207, 207);
+}
+.r2_menu ul{
+    display: inline;
+}
+.r2_menu li{
+    height: 25%;
+    width: 100%;
+    list-style-type: none;
+    background: white;
+}
+a{
+    text-decoration: none;
+}
+.r2_menu ul li:hover{
+    color: black;
+    background: rgb(206, 203, 203);
+}
+.m1_li{
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+.m1_li img{
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+}
+.m1_ct{
+    float: left;
+    height: 100%;
+    width: 80%;
+}
+.m1_ct h4{
+    color: black;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.m1_ct p{
+    color: black;
+    padding-top: 5px;
+    font-size: 14px;
+}
 .right3{
     margin-top: 35px;
-    height: 200px;
+    height: 180px;
     widows: 100%;
     background: white;
+}
+.r3_tt{
+    height: 30%;
+    width: 100%;
+    background: gainsboro;
+}
+.r3_tt p{
+    font-size: 18px;
+    padding: 21px;
+}
+.r3_ct{
+    height: 70%;
+    width: 100%;
+}
+.r3_ct p{
+    padding: 15px;
+}
+.r3_ct span{
+    color: rgb(105, 105, 105);
+    margin: 1px;
+    border-left: 6px solid rgb(240, 240, 240);
+    border-right: 6px solid rgb(240, 240, 240);
+    font-size: 11px;
+    background: rgb(240, 240, 240);
 }
 .footer{
     margin-top: 45px;
@@ -210,4 +290,39 @@
 }
 a{
     color: white;
+}
+/* 294 */
+@media(min-width: 15px) and (max-width: 992px) {
+.all{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2900px;
+    width: 100%;
+    background: rgb(241, 240, 240)
+}
+.header{
+    text-align: center;
+    height: 7%;
+    width: 100%;
+}
+.centent{
+    margin: 15px;
+    height: 86%;
+    width: 94%;
+}
+.ct_left{
+    float: none;
+    height: 60%;
+    width: 100%;
+}
+.ct_right{
+    float: none;
+    height: 40%;
+    width: 100%;
+}
+.footer{
+    margin-top: 45px;
+    height: 7%;
+    width: 100%;
+    background: rgb(77, 77, 75);
+}
 }
