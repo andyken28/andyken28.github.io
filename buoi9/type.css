@@ -24,11 +24,16 @@
     z-index: 1;
     overflow: auto;
 }
+.rls_img{
+    display: none;
+}
 .right{
     float: left;
     height: 100%;
     width: 60%;
 }
+
+
 .right_button{
     padding: 10px;
     background: rgb(248, 248, 248);
@@ -41,7 +46,10 @@
 }    
 .right_button:hover{
     background: rgb(187, 186, 186);
+    display: inline;
 }
+
+
 .r_header{
     text-align: center;
     height: 9%;
@@ -692,4 +700,36 @@
 .ct9_ct a{
     font-size: 15px;
     color: rgb(97, 97, 97);
+}
+@media(min-width: 600px) and (max-width: 992px) {
+    .left{
+        height: 0;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .l_img{
+       display: none;
+        text-align: center;
+        z-index: none;
+        position: static;
+    }
+    .right{
+        float: none;
+        height: 80%;
+        width: 100%;
+    }
+    .r_header{
+        margin-bottom: 500px;
+    }
+    .rls_img{
+        margin-top: 20px;
+        height: 500px;
+        width: 100%;
+        display: block;
+    }
+    .rls_img img{
+        height: 100%;
+        width: auto;
+    }
 }
